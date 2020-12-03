@@ -1,9 +1,4 @@
-import { NEW_LINE } from "../../utils";
-
-type IsValidPassword = {
-  policy: string;
-  password: string;
-};
+import { IsValidPassword } from "./types";
 /**
  * Check if a password is valid based on policy
  * @param options
@@ -28,8 +23,8 @@ const isValidPassword = ({ policy, password }: IsValidPassword): boolean => {
   return false;
 };
 /**
- * Counts the amount of valid passwords based on policy
- * @param {string[]} input Line containing policy and password
+ * Advent of Code 2020, D2P1
+ * @param {string[]} input Lines containing policy and password
  * @returns {number} Amount of valid passwords
  */
 const solution = (input: string[]): number => {

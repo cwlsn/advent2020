@@ -1,2 +1,2 @@
+// Global types for all puzzles
 export type NumberMap = Record<number, number>;
-export type StringMap = Record<string, string>;
