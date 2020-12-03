@@ -1,14 +1,13 @@
-import "./App.css";
+import "./App.scss";
 
 import { Day1 } from "./components/Day1";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Day1 />
-      </header>
-    </div>
+    <main>
+      <h1>Advent of Code 2020</h1>
+      <Day1 />
+    </main>
   );
 }
 
