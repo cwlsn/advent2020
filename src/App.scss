@@ -11,6 +11,7 @@ main {
   h1 {
     font-family: "Playfair Display", serif;
     margin: 0 0 24px;
+    font-size: 48px;
   }
 
   section {
@@ -23,20 +24,21 @@ main {
     margin: 0 0 24px;
 
     h2 {
-      font-size: 24px;
+      font-family: "Playfair Display", serif;
+      font-size: 32px;
       margin: 0;
       padding: 0 0 16px;
       border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     }
 
     h3 {
-      font-size: 16px;
+      font-size: 20px;
       font-weight: bold;
       margin: 24px 0 16px 0;
     }
 
     p {
-      font-size: 20px;
+      font-size: 24px;
       margin: 0 0 16px;
 
       code {

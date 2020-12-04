@@ -1,4 +1,4 @@
-import { fileToNumberArray } from "../utils/fileToNumberArray";
+import { fileToNumberArray } from "../utils";
 import { input } from "../input/day1";
 import { solution as puzzle1 } from "../solutions/day1/puzzle1";
 import { solution as puzzle2 } from "../solutions/day1/puzzle2";
