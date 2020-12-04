@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Advent of Code 2020
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a TypeScript implementation of the [Advent of Code 2020](https://adventofcode.com/2020), with as many solutions as I get around to.
 
-## Available Scripts
+## See Answers and Pagentry
 
-In the project directory, you can run:
+Run the app (bootstrapped with CRA) by installing dependencies and starting the app locally. The answers app also has some festive decorations.
 
-### `yarn start`
+```
+$ yarn install
+$ yarn start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Develop With This Format
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If you're interested in tackling some of the puzzles on your own and want to use this kind of format, this was vaguely my process.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Each day of puzzles gets its own folder in `/src/solutions`
+1. Copy the input into `src/input` in the same way as the other files.
+1. Export a function named `solution` from a file in this new directory like `puzzle1.ts`.
+1. Copy the given test case into a test file like `puzzle1.test.ts` and setup your first test. You can copy/paste from a previous day to get started.
+1. Run `yarn test` and write your solution until you can get the given test to pass.
+1. At this point I usually added some extra tests, but AoC doesn't really need anything besides the right answer.
+1. Create a components like `DayX.tsx` in `src/components` in the style of the other days to put the answer on the screen (alternatively just console.log it somewhere if you don't care about the output app).
+1. Submit your answer on the AoC site and make adjustments if you need to!
