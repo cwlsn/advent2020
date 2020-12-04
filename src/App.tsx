@@ -7,10 +7,28 @@ import { Day3 } from "./components/Day3";
 function App() {
   return (
     <main>
-      <h1>Advent of Code 2020</h1>
+      <h1>🎄 Advent of Code 2020 💻</h1>
       <Day3 />
       <Day2 />
       <Day1 />
+      <div className="snowflakes" aria-hidden="true">
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+      </div>
+      <footer>
+        Snowflakes from{" "}
+        <a href="https://pajasevi.github.io/CSSnowflakes/">CSSnowflakes</a>
+      </footer>
     </main>
   );
 }

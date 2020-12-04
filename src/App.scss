@@ -12,16 +12,27 @@ main {
     font-family: "Playfair Display", serif;
     margin: 0 0 24px;
     font-size: 48px;
+    color: #ffaaaa;
   }
 
   section {
     font-family: "Roboto", serif;
-    width: 496px;
+    width: 640px;
     background: rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 24px;
-    margin: 0 0 24px;
+    margin: 0 0 32px;
+    position: relative;
+
+    &::after {
+      content: "☃️";
+      position: absolute;
+      top: -32px;
+      left: -32px;
+      font-size: 64px;
+      transform: rotate(-45deg);
+    }
 
     h2 {
       font-family: "Playfair Display", serif;
@@ -29,6 +40,16 @@ main {
       margin: 0;
       padding: 0 0 16px;
       border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      position: relative;
+
+      &::after {
+        content: "❄🌟";
+        position: absolute;
+        top: -16px;
+        right: -16px;
+        font-size: 48px;
+        transform: rotate(45deg);
+      }
     }
 
     h3 {
@@ -47,6 +68,14 @@ main {
         padding: 8px;
         border-radius: 4px;
       }
+    }
+  }
+
+  footer {
+    margin: 16px 0 24px;
+
+    a {
+      color: #ffaaaa;
     }
   }
 }
