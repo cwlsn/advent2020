@@ -5,7 +5,7 @@ import { solution } from "./puzzle2";
 
 // Given example from website
 const givenArray = [
-  "1-3 a: abcde", // valid: a in 1
+  "1-3 a: abcde", // valid: a in 1 but not 3
   "1-3 b: cdefg", // invalid: no b in 1 or 3
   "2-9 c: ccccccccc", // invalid: c in both 2 and 9
 ];
