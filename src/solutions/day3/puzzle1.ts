@@ -1,6 +1,6 @@
 import { NEW_LINE } from "../../utils";
 
-const TREE = "#";
+export const TREE = "#";
 /**
  * Advent of Code 2020, D3P1
  * @param {string} input Tessalting slope map with squares (.) and trees (#)

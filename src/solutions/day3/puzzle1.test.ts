@@ -1,5 +1,5 @@
 /**
- * Advent of Code 2020, D1P1
+ * Advent of Code 2020, D3P1
  */
 import { solution } from "./puzzle1";
 
