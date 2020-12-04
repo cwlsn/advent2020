@@ -26,6 +26,8 @@ function App() {
         <div className="snowflake">❆</div>
       </div>
       <footer>
+        Code at{" "}
+        <a href="https://github.com/cwlsn/advent2020">cwlsn/advent2020</a>.
         Snowflakes from{" "}
         <a href="https://pajasevi.github.io/CSSnowflakes/">CSSnowflakes</a>
       </footer>
