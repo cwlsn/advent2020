@@ -1,5 +1,7 @@
 # Advent of Code 2020
 
+> **Disclaimer!** This just represents how I went about the problems. There's no right or wrong way, and efficiency doesn't really matter in this situation. If you're stuck there's a subreddit and Slack groups, and if you want to know why I did something weird feel free to tweet me @_cwlsn. I also Googled like crazy.
+
 This is a TypeScript implementation of the [Advent of Code 2020](https://adventofcode.com/2020), with as many solutions as I get around to.
 
 ## See Answers and Pagentry
